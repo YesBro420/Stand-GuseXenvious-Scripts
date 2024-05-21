@@ -1217,7 +1217,7 @@ local blackopsPed_Addrs = {}
 local CanSetModels = false
 --local RelPlayersBitsAddr = SplitGlobals("Global_2657704[PLAYER::PLAYER_ID() /*463*/].f_253")
 local RelAddrs = {}
-if NETWORK.GET_ONLINE_VERSION() == "1.68" then
+if NETWORK.GET_ONLINE_VERSION() == "1.67" then
 	--Addr = 0x7FF66E4E63F0
 	for i = 0, 29 do
 		--RelAddrs[i+1] = memory.script_global(RelPlayersBitsAddr + 463 * i)
